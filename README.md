@@ -16,7 +16,7 @@ assignment_20233068
 ![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170705212456131_V9D3Q4JJL.jpg/ka38_331_i1.jpg?type=w575_fst_n&wm=Y)
 
 # ps 명령어
-*나 현재 실행중인 프로세스 목록과 상태를 보여준다.
+*나 _ 현재 실행중인 프로세스 목록과 상태를 보여준다.
 
 * -e : 모든 프로세스를 출력
 * -f :풀 포맷으로 출력 (uid, pid, ppid, TTY 등 정보를 보여줌)
