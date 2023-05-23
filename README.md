@@ -65,11 +65,11 @@ assignment_20233068
 
 ***프로세스에 시그널을 보내는 명령(죽일때 사용)***
 
-1. kill 시그널 리스트 확인
+**1. kill 시그널 리스트 확인**
 * kill -l 
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99E84B455C6378A109)
 
-2. 주요 시그널
+**2. 주요 시그널**
 
 시그널| 영어| 설명
 --|--|--
