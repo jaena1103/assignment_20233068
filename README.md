@@ -28,7 +28,7 @@
 * x : 터미널이 없는 프로세스를 출력
 * --deselect : -N 옵션과 같음음
 
-**항목 & 내용용**
+**항목 & 내용**
 * UID	프로세스를 실행한 사람 (User ID)
 * PID	프로세스를 구분하기 위해 만들어진 프로세스 ID (Process ID)
 * PPID	부모 프로세스 ID (Parent Process ID)
