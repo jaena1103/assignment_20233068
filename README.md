@@ -2,7 +2,7 @@
 assignment_20233068
 
 # top 명령어
-*나 _ *나 _ *나 _시스템의 프로세스/메모리 사용 상태를 5초의 간격으로 업데이트하여 출력
+***시스템의 프로세스/메모리 사용 상태를 5초의 간격으로 업데이트하여 출력***
 
 * -b : 배치모드로 정보를 출력한다. 실시간 상화 대화형모드로 정보를 화면에 일렬로 출력한다.
 * -d delay : 지정한 시간(delay 초)의 간격으로 정보를 업데이트하여 출력한다.
@@ -16,7 +16,7 @@ assignment_20233068
 ![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170705212456131_V9D3Q4JJL.jpg/ka38_331_i1.jpg?type=w575_fst_n&wm=Y)
 
 # ps 명령어
-*나 _ 현재 실행중인 프로세스 목록과 상태를 보여준다.
+***현재 실행중인 프로세스 목록과 상태를 보여준다.***
 
 * -e : 모든 프로세스를 출력
 * -f :풀 포맷으로 출력 (uid, pid, ppid, TTY 등 정보를 보여줌)
@@ -26,8 +26,18 @@ assignment_20233068
 * -ef | more : 모든 프로세스를 풀 포맷으로 출력, more 명령어를 이용하여 페이지 단위로 출력
 * -ef | grep seek : 모든 프로세스를 풀 포맷으로 출력한 목록에서 grep을 이용해 seek이 포함된 행(ROW)을 출력
 
+**옵션 & 기능**
+* UID	프로세스를 실행한 사람 (User ID)
+* PID	프로세스를 구분하기 위해 만들어진 프로세스 ID (Process ID)
+* PPID	부모 프로세스 ID (Parent Process ID)
+* C	스케쥴링을 위한 CPU 사용량
+* STIME	프로세스 시작 시간
+* TTY	장치 번호, 해당 프로세스의 입출력 담당 터미널
+* TIME	CPU 점유 시간
+* CMD	command
+
 # jobs 명령어
-*나 _ 작업의 상태를 표시하는 명령어'
+***작업의 상태를 표시하는 명령어***
 
 -jobs로 출력되는 백그라운드 작업의 상태값
 * Runnig :작업이 계속 진행중임
@@ -47,11 +57,22 @@ assignment_20233068
 
 # kill 명령어
 
-*나_ 프로세스에 시그널을 보내는 명령이다.(죽일때 사용)
+***프로세스에 시그널을 보내는 명령이다.(죽일때 사용)***
 
 1. kill 시그널 리스트 확인
+* kill -l 
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99E84B455C6378A109)
 
 2. 주요 시그널
+
+시그널| 영어| 설명
+--|--|--
+ 1)SIGHUP |	Hang Up|	세션이 종료될 때 시스템이 내리는 시그널
+ 2)SIGINT |	Interrupt|	Ctrl + C, 종료 요청 시그널
+ 9)SIGKILL	|Kill	강제 종료 시그널
+ 11)SIGSEGV |	Segment Violation|	메모리 침범이 일어날 때 시스템이 보내는 시그널
+ 15)SIGTERM |	Terminate|	기본 값, 종료 요청 시그널
+ 20)SIGTSTP |	Temporary Stop|	Ctrl + Z 일시 중지 요청 시그널
+
 
 
